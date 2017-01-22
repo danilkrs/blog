@@ -1,20 +1,5 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@media screen and (max-width: 400px) {
-  .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; }
-
-  .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
-  .navbar .nav-collapse .navbar-form { margin: 0; }
-  .nav-collapse>li { float: none; }
-}
-@media only screen and (max-width : 400px) {
-  .navbar .navbar-brand {
-    padding: 0px;
-    transform: translateX(-50%);
-    left: 50%;
-    position: absolute;
-  }
-}
 @media screen and (max-width: 767px) {
   h3 { font-size: 5.9vw; }
   p { font-size: 4.5vmin; }
