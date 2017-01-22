@@ -8,11 +8,13 @@
   .nav-collapse>li { float: none; }
 }
 @media screen and (max-width: 767px) {
+  a {font-size: 5.9vw; }
   h3 { font-size: 5.9vw; }
   p { font-size: 4.5vmin; }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
+  a {font-size: 5.9vw;}
   h3 { font-size: 5.9vw; }
   p { font-size: 4.5vmin; }
 }
