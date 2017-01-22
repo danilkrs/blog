@@ -3,6 +3,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require bootstrap
 //= require bootstrap.min
 $(".nav a").on("click", function(){
     $(".nav").find(".active").removeClass("active");
